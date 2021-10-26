@@ -1,0 +1,22 @@
+
+POST http://localhost:3000/dogs/
+Content-Type: application/json
+
+{
+  "name" : "karabas",
+  "age" : 2,
+  "breed" : "K9"
+}
+
+
+###
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "Matthew",
+  "email": "matthew@info.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
