@@ -1,12 +1,12 @@
 
 POST http://localhost:3000/dogs/
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE2MzUyOTYzODh9.sySRh4j1Dt0UbhIOo0M2OXHPGvNODyPElpR64VQQuHc
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoyLCJleHAiOjE2MzUyOTkyNDR9.Er-ixDLLSRW1H4unhcOd5_YMQXGR3LCzOk3r2XwPkVM
 Content-Type: application/json
 
 {
-  "name" : "karabas",
-  "age" : 2,
-  "breed" : "K9"
+  "name" : "Braveheart",
+  "age" : 4,
+  "breed" : "retriever"
 }
 
 
@@ -16,8 +16,8 @@ POST http://localhost:3000/users
 Content-Type: application/json
 
 {
-  "name": "Matthew",
-  "email": "matthew@info.com",
+  "name": "Kyle Walker",
+  "email": "walker@info.com",
   "password": "password",
   "password_confirmation": "password"
 }
@@ -28,6 +28,6 @@ POST http://localhost:3000/sessions
 Content-Type: application/json
 
 {
-  "email": "matthew@info.com",
+  "email": "walker@info.com",
   "password": "password"
 }
